@@ -1,0 +1,38 @@
+<!-- 
+	author: Lui Crowie
+	site: crowzfx.co.uk
+-->
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../res/style.css">
+	    <script type="text/javascript" src="pass_genny.js"></script>
+	    <meta name="author" content="Lui Crowie">
+	</head>
+	<body>
+		<div id="wrapper">
+			<h2>FX - Password Generator</h2>
+			<div id="link"><a href="http://www.crowzfx.co.uk">-- crowzfx.co.uk --</a></div>
+
+			<p>Select options required and then click generate!</p>
+
+			<div class="options">
+				<div id="left">
+					<div>Include Symbols? i.e. $#%.</div>
+					<div>Length [<span id="lengthValue">8</span>]</div>
+					<div>Upper and Lowercase?</div>
+				</div>
+				<div id="right">
+					<input type="checkbox" id="includeSymbols" name="includeSymbols" value="false">
+					<input type="range" min="6" max="14" value="8" id="lengthRange"><span id="lengthValue"></span>
+					<input type="checkbox" id="mixedCase" name="mixedCase" value="false">
+				</div>
+			</div>
+
+			<div id="button-holder">
+				<span id="generatePassword">Generate</span>
+				<span id="copyToClip">Copy to Clipboard</span>
+			</div>
+			<textarea id="generatedPass" readonly>........</textarea>
+		</div>
+	</body>
+</html>
