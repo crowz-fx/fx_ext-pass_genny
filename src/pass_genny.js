@@ -69,7 +69,7 @@ function generatePassword() {
 
 // access the Chrome tabs api to open link in new tab
 function openCrowzFX() {
-	var newURL = "http://www.crowzfx.co.uk/";
+	var newURL = "http://crowzfx.co.uk/";
 	chrome.tabs.create({ url: newURL });
 }
 
