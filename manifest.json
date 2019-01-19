@@ -4,11 +4,11 @@
 		"scripts": ["src/pass_genny.js"]
 	},
 
-	"name": "Password Generator - FX",
+	"name": "Password Generator",
 	"short_name": "Pass Genny",
 	"author": "Lui Crowie",
-	"description" : "An extension to to create hard to crack sudo-random passwords.",
-	"version": "0.2",
+	"description" : "An extension to create hard to crack sudo-random passwords.",
+	"version": "0.3",
 	"manifest_version": 2,
 
 	"icons": { 
@@ -22,7 +22,7 @@
 	"browser_action": {
 		"default_popup": "src/pass_genny.html",
 		"default_icon": "icons/icon32.png",
-		"default_title": "FX - Pass Genny"
+		"default_title": "Password Generator"
 	},
 
 	"commands": {
