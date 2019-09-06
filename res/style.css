@@ -87,6 +87,7 @@ textarea#generatedPass {
 	height: 50px;
 	box-shadow: none;
 	font-size: 3em;
+	resize: none;
 }
 
 div#button-holder {
