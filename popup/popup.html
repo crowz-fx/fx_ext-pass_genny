@@ -1,0 +1,50 @@
+<!-- 
+  author: Lui Crowie
+-->
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <meta name="author" content="Lui Crowie">
+</head>
+
+<body>
+  <div id="wrapper">
+    <h2>Password Generator</h2>
+    <a id="link" href="http://luicrowie.me" target="_blank">by Lui Crowie</a>
+
+    <p id="generatedPass">........</p>
+
+    <div class="option">
+      <input type="range" min="6" max="30" value="12" id="lengthRange">
+      <span id="lengthValue">Length [12]</span>
+    </div>
+    <input class="button" type="button" id="generatePassword" value="Generate">
+    <input class="button" type="button" id="copyToClip" value="Copy to Clipboard">
+
+    <h3>Additional Options</h3>
+    <div class="options-wrapper">
+      <div>
+        <input type="checkbox" id="includeSymbols" name="includeSymbols" value="false">
+        <span>Include Symbols of !#@%_+</span>
+      </div>
+
+      <div>
+        <input type="checkbox" id="mixedCase" name="mixedCase" value="false">
+        <span>Upper and Lowercase</span>
+      </div>
+
+      <div>
+        <input type="checkbox" id="similarCharacters" name="similarCharacters" value="false">
+        <span>Don't Allow Similar Characters</span>
+      </div>
+    </div>
+
+    <input class="button" type="button" id="saveDefaults" value="Update Defaults">
+    <input class="button" type="button" id="resetDefaults" value="Reset Defaults">
+
+  </div>
+</body>
+<script type="text/javascript" src="popup.js"></script>
+
+</html>
