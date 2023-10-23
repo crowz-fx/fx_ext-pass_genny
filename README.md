@@ -1,5 +1,5 @@
 # fx_ext-pass_genny
-This Chrome extension 'Password Generator' allows a user to generate a sudo-random password with options.
+This Chrome extension 'Password Generator' allows a user to generate a pseudorandom password with options.
 
 [Link to extension on the Chrome WebStore][1]
 
